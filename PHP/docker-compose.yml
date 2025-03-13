@@ -1,5 +1,0 @@
-services:
-  python:
-    container_name: php-playground
-    image: php:8.4.2-alpine
-    command: tail -f /dev/null

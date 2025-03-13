@@ -1,7 +1,7 @@
 services:
   golang:
     container_name: golang-playground
-    image: golang:1.24.1-alpine
+    image: golang:1.24-alpine
     command: tail -f /dev/null
     volumes:
-      - .:/go
+      - ./src:/go

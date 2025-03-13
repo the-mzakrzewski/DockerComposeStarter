@@ -1,0 +1,8 @@
+services:
+  php:
+    container_name: php-playground
+    image: php:8.4-apache
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html/

@@ -1,5 +1,7 @@
 services:
   python:
     container_name: python-playground
-    image: python:3.13.1-alpine
+    image: python:3.13-alpine
     command: tail -f /dev/null
+    volumes:
+      - ./src:/usr/src/app
