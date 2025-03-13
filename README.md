@@ -1,10 +1,13 @@
 # Docker Compose Starter
 
-A project designed for managing and running various services through multiple Docker Compose configurations. Each folder represents a specific service or stack configuration.
+A project designed for managing and running various services through multiple Docker Compose configurations. Each folder
+represents a specific service or stack configuration.
 
 ## Overview
 
-This project is organized into separate Docker Compose setups, each within its own folder. It allows for flexibility in managing multiple services, containerized with **Docker**, and provides an easy way to run, test, and manage environments independently.
+This project is organized into separate Docker Compose setups, each within its own folder. It allows for flexibility in
+managing multiple services, containerized with **Docker**, and provides an easy way to run, test, and manage
+environments independently.
 
 ## Prerequisites
 
@@ -12,6 +15,14 @@ Ensure you have the following installed on your system:
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
+
+## Running Services
+
+To start a specific service, use the following command:
+
+```bash
+docker compose -f [folder]/docker-compose.yml up -d
+```
 
 ## Contributing
 
