@@ -1,0 +1,8 @@
+services:
+  fastapi:
+    container_name: fastapi-playground
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/usr/src/app
